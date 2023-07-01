@@ -1,0 +1,33 @@
+# 1. Linux介绍
+Linux是一种自由和开放源代码的操作系统，和Windows系统类似。
+
+Linux的学习建议基于真实Linux环境进行实际操作，记住常用命令即可。
+
+# 2. Linux教程
+目前云服务器大部分采用Linux系统，所以Linux系统相关命令必须掌握。
+
+## 2.1 网络教程推荐
+[Linux菜鸟教程](https://www.runoob.com/linux/linux-tutorial.html)
+
+[Linux就该这么学](https://www.linuxprobe.com/)：非常推荐这本教材，编写节奏非常舒适。
+
+## 2.2 Linux常用命令
+
+| 命令       | 说明                                             | 示例                                                         |
+|------------|--------------------------------------------------|--------------------------------------------------------------|
+| `ls`       | 列出当前目录的文件和子目录                       | `ls`                                                         |
+| `cd`       | 切换当前工作目录                                 | `cd /path/to/directory`                                       |
+| `pwd`      | 显示当前工作目录的路径                           | `pwd`                                                        |
+| `mkdir`    | 创建新目录                                       | `mkdir new_directory`                                         |
+| `rm`       | 删除文件或目录                                   | `rm file.txt`<br>`rm -r directory/`                           |
+| `cp`       | 复制文件和目录                                   | `cp file.txt new_file.txt`<br>`cp -r directory/ new_directory/` |
+| `mv`       | 移动文件和目录                                   | `mv file.txt new_location/`                                   |
+| `kill`     | 终止运行的进程                                   | `kill PID`                                                   |                                        |
+| `tar`      | 创建和提取归档文件                               | `tar -cvf archive.tar file1 file2`                           |
+| `wget`     | 下载文件                                         | `wget https://example.com/file.txt`                          |
+| `ssh`      | 远程登录到另一台计算机                           | `ssh user@hostname`                                          |
+| `scp`      | 在本地计算机和远程计算机之间复制文件               | `scp file.txt user@hostname:/path/to/destination`            |
+| `ping`     | 测试网络连接                                     | `ping google.com`                                            |
+| `ifconfig` | 显示和配置网络接口信息                           | `ifconfig`                                                   |
+| `sh`       | 执行 Shell 脚本或在交互模式下执行命令            | `sh script.sh`                                                 |
+|`vim`      |进入文本编辑器                                         | `vim filename`                                               |
