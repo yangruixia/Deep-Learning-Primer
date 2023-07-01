@@ -17,14 +17,61 @@ Miniconda是一个轻量级的Anaconda发行版，它是Python的包管理器和
 ![image](https://github.com/yangruixia/Deep-Learning-Primer/assets/32283868/55baf977-899e-4c2d-aedb-7fc46e35a292)
 
 ```
+wget <miniconda官网连接>
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ```
 
 ### 运行下载的sh文件
 
 ```
-sh filename.sh
+sh Miniconda的sh文件
+sh Miniconda3-latest-Linux-x86_64.sh
 ```
 
 ### 安装完成
+
+## 环境配置流程
+
+### 创建环境
+```
+conda create --name myenv
+conda create -n <envname>
+```
+如果要指定Python版本，需在后面添加参数。
+```
+conda create --name myenv python=3.10
+conda create -n <envname> python=3.9
+```
+### 检查Python版本
+```
+python –-version
+```
+### 激活环境
+```
+conda activate myenv
+```
+### 查询环境列表
+```
+conda info --envs
+conda env list
+```
+### 退出环境
+```
+conda deactivate
+```
+### 清除环境
+```
+conda env remove --name <envname>
+```
+### 激活环境后查看包列表
+```
+pip list
+```
+### 激活环境后安装包
+```
+pip install <package name>
+```
+
+
+
 
