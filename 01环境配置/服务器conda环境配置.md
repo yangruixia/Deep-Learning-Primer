@@ -1,14 +1,14 @@
 
 
-# 服务器要求
+# 1. 服务器要求
 
 Linux系统即可，有无GPU均可进行conda环境配置。
 
-# Miniconda环境配置
+# 2. Miniconda环境配置
 
 Miniconda是一个轻量级的Anaconda发行版，它是Python的包管理器和环境管理器。它提供了一个简单和快速的方法来安装和管理Python包及其依赖项，同时允许用户创建和管理独立的Python环境。
 
-## 服务器配置流程
+## 2.1 服务器配置流程
 
 ### 下载Miniconda包
 
@@ -30,7 +30,7 @@ sh Miniconda3-latest-Linux-x86_64.sh
 
 ### 安装完成
 
-## 环境配置流程
+## 2.2 环境配置流程
 
 ### 创建环境
 ```
